@@ -1,7 +1,7 @@
 var config = {
-  entry: __dirname + '/src/app.js',
+  entry: __dirname + '/client/src/app.js',
   output: {
-    path: __dirname + '/build',
+    path: __dirname + '/client/build',
     filename: 'bundle.js'
   },
   devtool: 'source-map',
