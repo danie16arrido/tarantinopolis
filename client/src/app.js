@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Container from './containers/Container.jsx';
 
 
 window.onload = function () {
   ReactDOM.render(
-    <h1>Tarantino</h1>, document.getElementById('app')
+    <Container/>, document.getElementById('app')
   )
 }
